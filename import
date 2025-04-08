@@ -20446,19 +20446,4 @@
         -moz-font-feature-settings: 'liga';
         -moz-osx-font-smoothing: grayscale;
     }
-    @media(min-width: 1280px) {
-        #profiles_show .l-page {
-            margin-top: 914px !important;
-        }
-    }
-    @media(min-width: 2560px) {
-        #profiles_show .l-page {
-            margin-top: 1330px !important;
-        }
-    }
-    @media(min-width: 3840px) {
-        #profiles_show .l-page {
-            margin-top: 2047.5px !important;
-        }
-    }
 }
