@@ -24,46 +24,6 @@
         color: inherit;
     }
     :root {
-        --color-text-primary: #eaeaea;
-        --color-text-secondary: #dadada;
-        --color-text-hint: #dadada;
-        --color-text-disabled: #6c6c6c;
-        --color-overlay-text-hovered: rgba(224, 224, 224, 0.04);
-        --color-overlay-text-selected: rgba(224, 224, 224, 0.08);
-        --color-overlay-text-pressed: rgba(224, 224, 224, 0.12);
-        --color-link: #eaeaea;
-        --color-link-hover: #dadada;
-        --color-link-active: #eaeaea;
-        --color-primary: #eaeaea;
-        --color-text-on-primary: black;
-        --color-primary-reduced: #dadada;
-        --color-primary-hovered: #eaeaea;
-        --color-primary-pressed: #e8e8e8;
-        --color-accent: #eaeaea;
-        --color-text-on-accent: black;
-        --color-accent-reduced: #eaeaea;
-        --color-accent-fade: #eaeaea;
-        --color-overlay-accent-hovered: rgba(62, 166, 255, 0.08);
-        --color-overlay-accent-selected: rgba(62, 166, 255, 0.12);
-        --color-overlay-accent-pressed: rgba(62, 166, 255, 0.16);
-        --color-background: black;
-        --color-background-translucent: rgba(15, 15, 15, 0.48);
-        --color-background-dialog: black;
-        --color-surface: #151515;
-        --color-surface-hover: black;
-        --color-surface-active: black;
-        --color-border: #191919;
-        --color-menu-background-fade: black;
-        --color-menu-text-primary: #eaeaea;
-        --color-menu-text-disabled: #777777;
-        --color-menu-icon: #eaeaea;
-        --color-menu-search-fade: transparent;
-        --color-menu-background-hover: black;
-        --color-menu-background-active: white;
-        --color-planned: black;
-        --color-on_hold: #eaeaea;
-        --color-watching: #eaeaea;
-        --color-rewatching: #eaeaea;
         --color-black: #212121;
         --color-white: #fafafa;
         --color-info: #4f91e8;
@@ -94,10 +54,6 @@
         --font-main: "Arial", sans-serif;
         --font-alt: var(--font-main);
         --word-spacing: 0.375em;
-        --font-main: "Product Sans Thin", sans-serif;
-        --font-alt: var(--font-main);
-        --font-icons-family: "Material Symbols Outlined";
-        font-variation-settings: 'wght@100';
     }
     @media (min-width: 960px) {
         :root {
@@ -19744,71 +19700,71 @@
         margin:0 -16px;
         background-image:var(--user-cover);
         background-repeat:no-repeat;
-        background-size:cover 
+        background-size:cover
     }
     @media(max-width: 319px){
         .p-profiles .profile-head::before{
-            display:none !important 
+            display:none !important
         }
     }
     @media(min-width: 320px)and (max-width: 480px){
         .p-profiles .profile-head::before{
             height:16px;
             padding-bottom:56.25%;
-            margin-top:-144px 
+            margin-top:-144px
         }
     }
     @media(min-width: 481px){
         .p-profiles .profile-head::before{
             height:268px;
-            margin-top:-48px 
+            margin-top:-48px
         }
     }
     @media(min-width: 768px){
         .p-profiles .profile-head::before{
             height:296px;
-            margin-top:-228px 
+            margin-top:-228px
         }
     }
     @media(min-width: 960px){
         .p-profiles .profile-head::before{
             height:424px;
-            margin:-252px -24px 0 
+            margin:-252px -24px 0
         }
     }
     @media(min-width: 320px)and (max-width: 480px){
         .p-profiles .profile-head .c-brief{
             background-color:var(--color-background-dialog);
-            box-shadow:0 6px 8px -2px rgba(0,0,0,.24) 
+            box-shadow:0 6px 8px -2px rgba(0,0,0,.24)
         }
     }
     @media(min-width: 768px){
         .p-profiles .profile-head .c-brief{
-            height:104px 
+            height:104px
         }
         .p-profiles .profile-head .c-brief .avatar{
             align-self:flex-end;
-            min-width:184px 
+            min-width:184px
         }
     }
     @media(min-width: 768px)and (min-width: 768px){
         .p-profiles .profile-head .c-brief .avatar::before,.p-profiles .profile-head .c-brief .avatar::after{
             inset:auto auto 68px;
             width:160px;
-            margin:0 12px 
+            margin:0 12px
         }
     }
     @media(min-width: 768px){
         .p-profiles .profile-head .c-brief .avatar img{
-            width:auto 
+            width:auto
         }
         .p-profiles .profile-head .c-brief .avatar .profile-actions{
-            position:static 
+            position:static
         }
     }
     @media(min-width: 768px)and (max-width: 959px){
         .p-profiles .profile-head .c-history{
-            top:-180px 
+            top:-180px
         }
     }
     @media(min-width: 960px){
@@ -19816,10 +19772,10 @@
             background-color:rgba(0,0,0,0);
             background-image:linear-gradient(var(--color-menu-background-fade), transparent);
             box-shadow:none;
-            z-index:11 
+            z-index:11
         }
         #profiles_show .l-top_menu-v2.is-search-shade~.b-to-top::before,#profiles_show .l-top_menu-v2:hover~.b-to-top::before{
-            opacity:1 
+            opacity:1
         }
         #profiles_show .b-to-top::before{
             content:"";
@@ -19835,64 +19791,64 @@
             opacity:0;
             visibility:visible;
             pointer-events:none;
-            transition:opacity .25s ease 
+            transition:opacity .25s ease
         }
         #profiles_show .b-to-top.active::before{
-            opacity:1 
+            opacity:1
         }
     }
     .p-profiles-show[data-locale=ru] .profile-content .activity .title{
         font-size:0;
-        line-height:0 
+        line-height:0
     }
     .p-profiles-show[data-locale=ru] .profile-content .activity .title::after{
         content:"График активности";
         font-size:14px;
-        line-height:16px 
+        line-height:16px
     }
     @media(min-width: 960px){
         .p-profiles-show .profile-content .graph.vertical.x26{
-            display:none 
+            display:none
         }
         .p-profiles-show .profile-content .graph.vertical.x34{
-            display:block 
+            display:block
         }
     }
     .graph.vertical.bar .line{
-        width:6px !important 
+        width:6px !important
     }
     .graph.vertical.x26 .line{
-        margin-right:calc((100% - 6px)/25 - 6px) 
+        margin-right:calc((100% - 6px)/25 - 6px)
     }
     .graph.vertical.x34 .line{
-        margin-right:calc((100% - 6px)/33 - 6px) 
+        margin-right:calc((100% - 6px)/33 - 6px)
     }
     .graph.vertical .line:last-child{
-        margin-right:0 
+        margin-right:0
     }
     .graph.vertical .line{
-        overflow:visible 
+        overflow:visible
     }
     .graph.vertical .line .x_label{
-        pointer-events:none 
+        pointer-events:none
     }
     .graph.vertical .line:last-child .x_label{
-        right:0 
+        right:0
     }
     .graph.vertical .line .bar-container{
         position:static;
         display:flex;
-        align-items:flex-end 
+        align-items:flex-end
     }
     .graph.vertical .line .bar-container .bar{
         position:static;
         width:6px;
         border-radius:6px 6px 0 0;
         pointer-events:none;
-        transition:.16s 
+        transition:.16s
     }
     .graph.vertical .line .bar-container:hover .bar{
-        background:var(--color-primary-hovered) 
+        background:var(--color-primary-hovered)
     }
     .graph.vertical .line .bar-container .bar::after{
         content:attr(title);
@@ -19909,10 +19865,10 @@
         text-align:center;
         opacity:0;
         transition:.16s;
-        letter-spacing:-0.5px 
+        letter-spacing:-0.5px
     }
     .graph.vertical .line .bar-container:hover .bar::after{
-        opacity:.9 
+        opacity:.9
     }
     @media(min-width: 960px){
         .graph.vertical .line .bar-container .bar::after{
@@ -19926,41 +19882,41 @@
             color:var(--color-text-hint);
             font-weight:bold;
             line-height:16px;
-            text-align:right 
+            text-align:right
         }
         .graph.vertical:not(:hover) .line:last-child .bar-container .bar{
-            background:var(--color-primary-hovered) 
+            background:var(--color-primary-hovered)
         }
         .graph.vertical:not(:hover) .line:last-child .bar-container .bar::after{
-            opacity:.9 
+            opacity:.9
         }
     }
     .profile-content .lifetime .bar,.profile-content .lifetime .times,.profile-content .activity .title{
-        display:block 
+        display:block
     }
     .profile-content .lifetime{
-        margin-bottom:16px 
+        margin-bottom:16px
     }
     .profile-content .lifetime .bar{
         height:8px;
         border-radius:8px;
-        background-color:var(--color-border) 
+        background-color:var(--color-border)
     }
     .profile-content .lifetime .bar .first{
         background:var(--color-primary);
         border-radius:0 8px 8px 0;
-        opacity:1 
+        opacity:1
     }
     .profile-content .lifetime .bar .third{
-        display:none 
+        display:none
     }
     .profile-content .lifetime .cuts{
-        position:static 
+        position:static
     }
     .profile-content .lifetime .cuts .cut{
         bottom:0;
         margin:0 -4px;
-        border-width:4px 
+        border-width:4px
     }
     .p-profiles-show .b-stats_bar.lifetime .cuts .cut{
         top:-2px;
@@ -19968,14 +19924,14 @@
         height:12px;
         border:2px solid var(--color-background);
         border-radius:50%;
-        margin:0 0 0 -6px 
+        margin:0 0 0 -6px
     }
     @media(max-width: 959px){
         .profile-content>.cc-2 .cc-2a>.c-column{
-            width:60% 
+            width:60%
         }
         .profile-content>.cc-2 .cc-2a>.c-column:last-child{
-            width:36% 
+            width:36%
         }
         .p-profiles-show .cc-friends .b-user:nth-child(n){
             display:inline-block;
@@ -19983,13 +19939,13 @@
             clear:none;
             float:none;
             width:22%;
-            margin:0 4% 0 0 
+            margin:0 4% 0 0
         }
         .p-profiles-show .cc-friends .b-user:nth-child(4n+4){
-            margin-right:0 
+            margin-right:0
         }
         .p-profiles-show .cc-friends .b-user:nth-child(n+5){
-            margin-top:8px 
+            margin-top:8px
         }
         .b-clubs.one-line .b-club:nth-child(n){
             display:inline-block;
@@ -19997,18 +19953,18 @@
             clear:none;
             float:none;
             width:48%;
-            margin:0 4% 0 0 
+            margin:0 4% 0 0
         }
         .b-clubs.one-line .b-club:nth-child(2n+2){
-            margin-right:0 
+            margin-right:0
         }
         .b-clubs.one-line .b-club:nth-child(n+3){
-            margin-top:16px 
+            margin-top:16px
         }
         .b-clubs.one-line .b-club .logo{
             display:block;
             float:none;
-            margin:auto 
+            margin:auto
         }
     }
     @media(min-width: 960px){
@@ -20016,10 +19972,10 @@
             width:22%;
             margin-right:4%;
             margin-bottom:16px;
-            clear:none 
+            clear:none
         }
         .p-profiles-show .cc-friends .b-user:nth-child(4n+4){
-            margin-right:0 
+            margin-right:0
         }
     }
     .block>.b-spoiler{
@@ -20028,10 +19984,10 @@
         position:relative;
         margin-bottom:.5em;
         background-color:rgba(128,128,128,0.2);
-        border-radius:3px 
+        border-radius:3px
     }
     .block>.b-spoiler+br,.block>.b-spoiler>.content>.before:before,.block>.b-spoiler>.content>.after{
-        display:none 
+        display:none
     }
     .block>.b-spoiler>label{
         display:block !important;
@@ -20040,10 +19996,10 @@
         border-radius:inherit;
         color:inherit;
         font-weight:bold;
-        line-height:20px 
+        line-height:20px
     }
     .block>.b-spoiler>label:hover::after{
-        opacity:1 
+        opacity:1
     }
     .block>.b-spoiler>label::after{
         content:'Show';
@@ -20061,10 +20017,10 @@
         line-height:24px;
         text-transform:lowercase;
         opacity:.4;
-        transition:.2s 
+        transition:.2s
     }
     .block>.b-spoiler>label[style*='none']::after{
-        content:'Hide' 
+        content:'Hide'
     }
     .block>.b-spoiler>.content>.before{
         position:absolute;
@@ -20073,7 +20029,7 @@
         bottom:0;
         left:0;
         padding:4px 16px;
-        line-height:32px 
+        line-height:32px
     }
     .block>.b-spoiler>.content>.inner{
         display:block;
@@ -20084,22 +20040,22 @@
         border:0;
         border-left:2px solid #6d6f72;
         cursor:auto;
-        z-index:1 
+        z-index:1
     }
     .block>.b-spoiler>.content::after{
         content:'';
         display:block;
         clear:both;
-        padding-top:4px 
+        padding-top:4px
     }
     .b-catalog_entry .cover .image-cutter{
         max-width:none!important;
-        max-height:none!important 
+        max-height:none!important
     }
     .b-catalog_entry .cover .image-cutter::before{
         content:"";
         display:block;
-        padding-bottom:155.5555% 
+        padding-bottom:155.5555%
     }
     .b-catalog_entry .cover .image-cutter img{
         position:absolute;
@@ -20108,24 +20064,24 @@
         width:100%;
         height:100%;
         object-fit:cover;
-        object-position:center top 
+        object-position:center top
     }
     .b-collection-topic>.inner .cover .image-cutter.see-more{
         height:auto;
         padding:0;
-        border:0 
+        border:0
     }
     .b-collection-topic>.inner .see-more .text{
         display:flex;
         inset:0;
         justify-content:center;
         align-items:center;
-        border:thin solid rgba(172,177,180,.5) 
+        border:thin solid rgba(172,177,180,.5)
     }
     .b-collection-topic>.inner .is-censored .cover .image-cutter.see-more,.b-collection-topic>.inner .is-spoilers .cover .image-cutter.see-more{
-        border-color:transparent 
+        border-color:transparent
     }
-    :root {
+     :root {
         --is-theme-dark: 0;
         --l-theme-default: 55%;
     }
@@ -20279,67 +20235,67 @@
     }
     .p-profiles-show .cc-favourites{
         display:grid;
-        align-items:flex-start 
+        align-items:flex-start
     }
     .p-profiles-show .cc-favourites .c-column{
-        width:100%!important 
+        width:100%!important
     }
     @media(max-width:480px){
         .p-profiles-show .cc-favourites{
             grid-template-columns:repeat(var(--favorites-columns-xs,var(--favorites-columns,6)),1fr);
-            gap:var(--favorites-gutters-xs,var(--favorites-gutters,8px)) 
+            gap:var(--favorites-gutters-xs,var(--favorites-gutters,8px))
         }
     }
     @media(min-width:481px){
         .p-profiles-show .cc-favourites{
             grid-template-columns:repeat(var(--favorites-columns-sm,var(--favorites-columns,8)),1fr);
-            gap:var(--favorites-gutters-sm,var(--favorites-gutters,8px)) 
+            gap:var(--favorites-gutters-sm,var(--favorites-gutters,8px))
         }
     }
     @media(min-width:768px){
         .p-profiles-show .cc-favourites{
             grid-template-columns:repeat(var(--favorites-columns-md,var(--favorites-columns,8)),1fr);
-            gap:var(--favorites-gutters-md,var(--favorites-gutters,8px)) 
+            gap:var(--favorites-gutters-md,var(--favorites-gutters,8px))
         }
     }
     @media(min-width:961px){
         .p-profiles-show .cc-favourites{
             grid-template-columns:repeat(var(--favorites-columns-lg,var(--favorites-columns,8)),1fr);
-            gap:var(--favorites-gutters-lg,var(--favorites-gutters,8px)) 
+            gap:var(--favorites-gutters-lg,var(--favorites-gutters,8px))
         }
     }
     @media(min-width:1200px){
         .p-profiles-show .cc-favourites{
             grid-template-columns:repeat(var(--favorites-columns-xl,var(--favorites-columns,8)),1fr);
-            gap:var(--favorites-gutters-xl,var(--favorites-gutters,8px)) 
+            gap:var(--favorites-gutters-xl,var(--favorites-gutters,8px))
         }
     }
     .b-catalog_entry-tooltip>.entry-tooltip_container>a::before,.b-catalog_entry>.cover .image-cutter{
-        background:var(--custom-image,none) var(--custom-settings,center top / cover) 
+        background:var(--custom-image,none) var(--custom-settings,center top / cover)
     }
     .b-catalog_entry-tooltip>.entry-tooltip_container>a{
         display:flex;
         align-self:flex-start;
         position:relative;
-        max-width:160px 
+        max-width:160px
     }
     .b-catalog_entry-tooltip>.entry-tooltip_container>a::before{
         content:'';
         display:block;
         width:160px;
-        padding-bottom:155.5556% 
+        padding-bottom:155.5556%
     }
     .b-catalog_entry-tooltip>.entry-tooltip_container>a img{
         position:absolute;
         top:0;
         left:0;
-        opacity:var(--show-default, 1) 
+        opacity:var(--show-default, 1)
     }
     .b-catalog_entry>.cover img{
-        opacity:var(--show-default, 1) 
+        opacity:var(--show-default, 1)
     }
     .is-spoilers .b-catalog_entry>.cover .image-cutter{
-        background:0 0 
+        background:0 0
     }
     .is-spoilers .b-catalog_entry>.cover .image-cutter::before{
         content:"";
@@ -20348,10 +20304,10 @@
         display:block;
         background:var(--custom-image,none) var(--custom-settings,center top/cover);
         transition:filter .5s,-webkit-filter .5s;
-        filter:blur(10px) grayscale(.75) 
+        filter:blur(10px) grayscale(.75)
     }
     .is-spoilers .b-catalog_entry>.cover .image-cutter:hover::before{
-        filter:blur(0) grayscale(0) 
+        filter:blur(0) grayscale(0)
     }
     @font-face {
         font-family: 'Product Sans';
@@ -20425,7 +20381,7 @@
         font-weight: 900;
         src: local('Product Sans Black'), url('https://fonts.cdnfonts.com/s/14955/ProductSans-BlackItalic.woff') format('woff');
     }
-    @font-face {
+     @font-face {
         font-family: 'Material Symbols Outlined';
         font-style: normal;
         font-weight: 100;
