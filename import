@@ -114,7 +114,7 @@
     font-weight: 700;
   }
   body[data-user*=":2727,"] .l-footer::before {
-    content: "monochrome theme by 夜の子 v3.8.7";
+    content: "monochrome theme by 夜の子 v3.9.1";
   }
   .l-footer::after {
     display: none;
@@ -10621,7 +10621,7 @@
     line-height: 2em;
   }
   .l-footer::before {
-    content: "monochrome theme by 夜の子 v3.8.7";
+    content: "monochrome theme by 夜の子 v3.9.1";
     display: block;
     float: left;
     position: static;
